@@ -1,0 +1,29 @@
+.profilheader {
+  border-left: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8;
+  margin: 0;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+
+  &__btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  &__title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6f7a7c;
+  }
+}

@@ -1,0 +1,59 @@
+.home {
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid #d8d8d8;
+  &__header {
+    box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  &__hero {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 15px 20px;
+  }
+
+  &__hero--person {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+  }
+
+  &__hero--name {
+    color: #828282;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+  }
+
+  &__hero--infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__hero--list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    margin-left: 35px;
+  }
+
+  &__hero--item {
+    cursor: pointer;
+  }
+
+  &__bottom {
+    padding-top: 20px;
+  }
+}

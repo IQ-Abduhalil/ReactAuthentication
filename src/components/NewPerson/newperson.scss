@@ -1,0 +1,51 @@
+.newperson {
+  padding: 10px 25px;
+
+  border-bottom: 1px solid #d8d8d8;
+  &__in {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__infos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+  }
+
+  &__time {
+    color: #828282;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+
+  &__image {
+    margin-bottom: 22px;
+  }
+}

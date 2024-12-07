@@ -1,0 +1,38 @@
+.profilelink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__img {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__names {
+    margin-right: 23px;
+  }
+
+  &__name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0;
+  }
+
+  &__email {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    margin: 0;
+  }
+}

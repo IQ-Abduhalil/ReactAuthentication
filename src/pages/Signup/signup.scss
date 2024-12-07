@@ -1,0 +1,83 @@
+.signup {
+  height: 100vh;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18px;
+  }
+
+  &__left {
+    margin-right: 41px;
+  }
+
+  &__left-img {
+    display: block;
+    width: 60vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__right-img {
+    margin-bottom: 57px;
+    padding: 0;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 46px;
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 98px;
+  }
+
+  &__text {
+    margin-bottom: 31px;
+    line-height: 49px;
+    font-size: 42px;
+    font-weight: 900;
+  }
+  &__btn-logo {
+    display: block;
+  }
+
+  &__btn-list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  &__btn-item {
+    list-style-type: none;
+  }
+
+  &__btn-link {
+    box-sizing: border-box;
+    border-radius: 42px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 50px;
+    border: 1px solid #e4eaed;
+  }
+
+  &__right-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__footer-list {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+  }
+
+  &__footer-item {
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 15px;
+    cursor: pointer;
+  }
+}

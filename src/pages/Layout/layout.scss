@@ -1,0 +1,114 @@
+.layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 20px;
+
+  &__left {
+    padding-right: 15px;
+  }
+
+  &__left-logo {
+    margin-bottom: 50px;
+  }
+
+  &__sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  &__right {
+    max-width: 373px;
+    // border-left: 1px solid #d8d8d8;
+    padding-left: 28px;
+  }
+
+  &__form {
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    border: none;
+    background-color: #eff3f4;
+    border-radius: 31px;
+    padding: 15px 134.6px 15px 20px;
+    margin: 0;
+  }
+
+  &__right-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 15px;
+    background-color: #eff3f4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__right-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__right--title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  &__right--name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+  }
+
+  &__right--text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #393b41;
+  }
+
+  &__right--link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1da1f2;
+    margin-top: 30px;
+  }
+
+  &__right--likes {
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #f7f9f9;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  &__right--liketitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  &__right--bottom {
+    margin-bottom: 20px;
+  }
+
+  &__right--bottomtext {
+    color: #536471;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

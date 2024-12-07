@@ -1,0 +1,26 @@
+.sidelink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 20px;
+  font-weight: 600;
+
+  &.active &__title {
+    font-weight: 700;
+    color: blue;
+  }
+
+  &__img {
+    padding: 0;
+    margin: 0;
+  }
+
+  &__title {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+  }
+}
